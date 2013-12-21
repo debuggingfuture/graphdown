@@ -1,0 +1,16 @@
+{
+    "name": "gd",
+    "version": "0.0.0",
+    "directories": {
+        "lib": "./lib"
+    },
+    "dependencies": {
+        "amdefine": "*"
+
+    },
+    "devDependencies": {
+    },
+    "engines": {
+        "node": ">=0.8.0"
+    }
+}

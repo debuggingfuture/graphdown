@@ -1276,7 +1276,7 @@ define(["angular", "d3"], function(angular, d3) {
 
         var parse = function(graphdown) {
             console.log(graphdown);
-
+            return {};
         };
 
         var graphInit = function() {
@@ -1295,7 +1295,6 @@ define(["angular", "d3"], function(angular, d3) {
                 .attr("height", height);
 
         };
-
 
         var update = function(graph) {
             force
@@ -1351,6 +1350,10 @@ define(["angular", "d3"], function(angular, d3) {
         };
         graphInit();
         update($scope.graph);
+
+        angular.$watch('graphdown',function(oldVal,newVal) {
+             update(parse(newVal));
+        };)
 
     };
 
