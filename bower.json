@@ -1,0 +1,23 @@
+{
+    "name": "graphdown",
+    "version": "0.0.0",
+    "dependencies": {
+        "modernizr": "~2.7.1",
+        "json3": "~3.2.4",
+        "jquery": "~1.9.1",
+        "angular-resource": "~1.0.7",
+        "angular-cookies": "~1.0.7",
+        "angular-sanitize": "~1.0.7",
+        "angular-bootstrap": "*",
+        "angular-animate": "*",
+        "angular": "1.2.5",
+        "angular-route": "*",
+        "d3": "*"
+    },
+    "devDependencies": {
+        "angular-scenario": "~1.0.7"
+    },
+    "resolutions": {
+        "angular": "1.2.5"
+    }
+}
